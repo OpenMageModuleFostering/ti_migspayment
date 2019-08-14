@@ -1,22 +1,24 @@
 <?xml version="1.0"?>
 <package>
     <name>Ti_Migspayment</name>
-    <version>0.1.0</version>
+    <version>1.0.0</version>
     <stability>stable</stability>
-    <license>GNU General Public License (GPL)</license>
+    <license>OSL</license>
     <channel>community</channel>
     <extends/>
-    <summary>Processing Credit Card with Mastercard Internet Gateway Service (MIGS)</summary>
-    <description>Processing Credit Card with Mastercard Internet Gateway Service. &#xD;
-So customer will not leave our shopping site. &#xD;
-All the transactions are listing out in backend order transactions.</description>
-    <notes>Processing Credit Card with Mastercard Internet Gateway Service (MIGS). &#xD;
-So customer will not leave our shopping site. &#xD;
-All the transactions are listing out in backend order transactions.</notes>
-    <authors><author><name>Ti Technologies</name><user>titech</user><email>info@titechnologies.in</email></author></authors>
-    <date>2012-10-22</date>
-    <time>11:11:46</time>
-    <contents><target name="mageetc"><dir name="modules"><file name="Ti_Migspayment.xml" hash="addf06d502b569a68b33d57ce24b5697"/></dir></target><target name="magecommunity"><dir name="Ti"><dir name="Migspayment"><dir name="Helper"><file name="Data.php" hash="b2ea8d528a2ebecfe48617fd356399ec"/></dir><dir name="Model"><file name="Virtualcredit.php" hash="9da995886bb46780e36e26cdd4ad07ae"/></dir><dir name="etc"><file name="config.xml" hash="5075bbace4ade34dccd8cd1f2c27ba0b"/><file name="system.xml" hash="9733316126c81041e92e2092e092fb53"/></dir></dir></dir></target></contents>
+    <summary>Processing Credit Card with Mastercard Internet Gateway Service (MIGS) </summary>
+    <description>Processing Credit Card with Mastercard Internet Gateway Service.&#xD;
+So customer will not leave our shopping site.&#xD;
+All the transactions are listing out in backend order transactions.&#xD;
+</description>
+    <notes>Processing Credit Card with Mastercard Internet Gateway Service.&#xD;
+So customer will not leave our shopping site.&#xD;
+All the transactions are listing out in backend order transactions.&#xD;
+</notes>
+    <authors><author><name>Ti</name><user>titech</user><email>info@titechnologies.in</email></author></authors>
+    <date>2014-03-06</date>
+    <time>09:52:15</time>
+    <contents><target name="magecommunity"><dir name="Ti"><dir name="Migspayment"><dir name="Helper"><file name="Data.php" hash="b2ea8d528a2ebecfe48617fd356399ec"/></dir><dir name="Model"><file name="Virtualcredit.php" hash="9da995886bb46780e36e26cdd4ad07ae"/></dir><dir name="etc"><file name="config.xml" hash="aab7ced5371f396c9179fafe9ecf7c48"/><file name="system.xml" hash="9733316126c81041e92e2092e092fb53"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Ti_Migspayment.xml" hash="addf06d502b569a68b33d57ce24b5697"/></dir></target></contents>
     <compatible/>
-    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+    <dependencies><required><php><min>5.2.0</min><max>5.5.9</max></php></required></dependencies>
 </package>

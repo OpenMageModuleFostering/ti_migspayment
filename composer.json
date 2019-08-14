@@ -1,12 +1,12 @@
 {
     "name": "OpenMageModuleFostering/Ti_Migspayment",
     "type": "magento-module",
-    "license": "GNU-General-Public-License-(GPL)",
+    "license": "OSL",
     "homepage": "",
-    "description": "Processing Credit Card with Mastercard Internet Gateway Service (MIGS)",
+    "description": "Processing Credit Card with Mastercard Internet Gateway Service (MIGS) ",
     "authors": [
     {
-        "name": "Ti Technologies",
+        "name": "Ti",
         "email": "info@titechnologies.in"
     }
 ],
