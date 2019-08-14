@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Ti Migspayment Payment Module
+ *
+ * @category    Ti
+ * @package     Ti_Migspayment
+ * @copyright   Copyright (c) 2012 Ti Technologies (http://www.titechnologies.in)
+ * @link        http://www.titechnologies.in
+ */
+-->
+<config>
+    <modules>
+        <Ti_Migspayment>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Mage_Payment />
+            </depends>
+        </Ti_Migspayment>
+    </modules>
+</config>

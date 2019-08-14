@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Ti Migspayment Payment Module
+ *
+ * @category    Ti
+ * @package     Ti_Migspayment
+ * @copyright   Copyright (c) 2012 Ti Technologies (http://www.titechnologies.in)
+ * @link        http://www.titechnologies.in
+ */
+-->
+<config>
+    <modules>
+       <Ti_Migspayment>
+          <version>0.1.0</version>
+       </Ti_Migspayment>
+    </modules>
+    <global>
+        <helpers>
+            <migspayment>
+                <class>Ti_Migspayment_Helper</class>
+            </migspayment>
+        </helpers>
+        <blocks>
+            <migspayment>
+                <class>Ti_Migspayment_Block</class>
+            </migspayment>
+        </blocks>
+        <models>
+            <migspayment>
+                <class>Ti_Migspayment_Model</class>
+            </migspayment>
+        </models>
+        <resources>
+            <migspayment_setup>
+                <setup>
+                    <module>Ti_Migspayment</module>
+                </setup>
+                <connection>
+                <use>core_setup</use>
+                </connection>
+            </migspayment_setup>
+            <migspayment_write>
+                <connection>
+                  <use>core_write</use>
+                </connection>
+            </migspayment_write>
+            <migspayment_read>
+               <connection>
+                <use>core_read</use>
+              </connection>
+            </migspayment_read>
+        </resources>
+    </global>
+    <default>
+        <payment>
+            <migspayment>
+                <active>0</active>
+                <model>migspayment/virtualcredit</model>
+                <order_status>pending</order_status>
+                <title>Credit Card ( Mastercard Internet Gateway Service )</title>
+                <gatewayurl>https://migs.mastercard.com.au/vpcdps</gatewayurl>
+                <testmode>0</testmode>
+                <merchantid>TESTDAGOSI</merchantid>
+                <accesscode>3BE4B05F</accesscode>
+                <testmerchantid>TESTDAGOSI</testmerchantid>
+                <testaccesscode>3BE4B05F</testaccesscode>
+                <cctypes>AE,VI,MC,DI</cctypes>
+                <payment_action>authorize</payment_action>
+                <allowspecific>0</allowspecific>
+            </migspayment>
+         </payment>
+    </default>
+</config>
